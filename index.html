@@ -1,51 +1,54 @@
 <html>
     <head>
         <title>Groceries</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <style>.header {background-color: lightgray};</style>
     </head>
     <body>
         
-        <h1>My Very Organized Grocery List</h1>
+        <h1 style="color: darkred" class="header">My Very Organized Grocery List</h1>
 
         <section>
-            <h2>Pantry Items</h2>
-                <section>
-                    <h3>Canned</h3>
+            <h2 class="header">Pantry Items</h2>
+                <section class="subcategory">
+                    <h3 class="header">Canned</h3>
                         <ol>
                             <li>Tuna</li>
                             <li>Soup</li>
                             <li>Peaches</li>
                         </ol>
                 </section>
-                <section>
-                    <h3>Dry Goods</h3>
+                <section class="subcategory">
+                    <h3 class="header">Dry Goods</h3>
                         <ul>
                             <li>Rice</li>
                             <li>Beans</li>
                             <li>Flour</li>
                         </ul>
                 </section>
-                <img src="./img/pantry.jpeg" alt="Pantry Foods">
+                <img src="./img/pantry.jpeg" alt="Pantry Foods" class="subcategory">
         </section>
 
         <section>
-            <h2>Freezer Items</h2>
-                <section>
-                    <h3>Veggies</h3>
+            <h2 class="header">Freezer Items</h2>
+                <section class="subcategory">
+                    <h3 class="header">Veggies</h3>
                         <ol>
                             <li>Peas</li>
                             <li>Carrots</li>
                             <li>Corn</li>
                         </ol>
                 </section>
-                <section>
-                    <h3>Snacks</h3>
+                <section class="subcategory">
+                    <h3 class="header">Snacks</h3>
                         <ul>
                             <li>Ice Cream</li>
                             <li>Frozen Yogurt</li>
                             <li>Pie</li>
                         </ul>
                 </section>
-                <img src="./img/freezer.jpeg" alt="Freezer Foods">
+                <img src="./img/freezer.jpeg" alt="Freezer Foods" class="subcategory">
         </section>
 
     </body>
